@@ -1,0 +1,2 @@
+# squaretest
+squareのテスト用
