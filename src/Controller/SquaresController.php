@@ -11,6 +11,11 @@ namespace App\Controller;
  */
 class SquaresController extends AppController
 {
+    public function initialize(): void
+    {
+        parent::initialize();
+        $this->viewBuilder('test');
+    }
     /**
      * Index method
      *
@@ -21,6 +26,27 @@ class SquaresController extends AppController
         $squares = $this->paginate($this->Squares);
 
         $this->set(compact('squares'));
+    }
+
+    public function pay()
+    {
+        $square = $this->Squares->newEmptyEntity();
+        
+        if ($this->request->is('post')) {
+            //squareの支払い処理
+            
+            //squareの処理が無事できたら
+            if (0) {
+                $this->Flash->success(__('squareの支払が無事完了しました'));
+                //squareの返り値を配列に保存
+                //squareの返り値をポストしてaddに移動
+                return $this->redirect(['action' => 'add']);
+            }
+            $this->Flash->error(__('squareの処理を失敗しました'));
+        }
+
+        //viewに
+        $this->set(compact('square'));
     }
 
     /**
