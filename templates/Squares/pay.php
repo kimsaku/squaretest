@@ -4,8 +4,13 @@
  * @var \App\Model\Entity\Square $square
  */
 ?>
-<?= $this->Html->script($square_js_src);?>
-<?= $this->Html->script('js/sq-payment-form');?>
+
+<?= $this->Html->script($square_js_src,['block' => true]);?>
+<?= $this->Html->scriptStart(['block' => true]);?>
+    window.applicationId = <?= "\"".$sqAppId."\""?>;
+    window.locationId = <?= "\"".$sqAppId."\""?>;
+<?= $this->Html->scriptEnd();?>
+<?= $this->Html->script('sqpaymentform',['block' => true]);?>
 
 <div class="row">
     <aside class="column">
@@ -17,109 +22,99 @@
     <div class="column-responsive column-80">
         <div class="squares payment form content">
             <?= $this->Form->create() ?>
-            <fieldset>
-            <div><?= $upper_case_environment?></div>
+            <!-- <fieldset>
+            <div>Squareの開発環境＝<?= $upper_case_environment?></div>
             <div id="form-container">
                 <label>Card Number</label>
                 <div id="sq-card-number"></div>
-                <label>CVV</label>
-                <div id="sq-cvv"></div>
                 <label>Expiration Date</label>
                 <div id="sq-expiration-date"></div>
+                <label>CVV</label>
+                <div id="sq-cvv"></div>
                 <label>Postal Code</label>
                 <div id="sq-postal-code"></div>
-                <button id="sq-creditcard" onclick="requestCardNonce(event)">カードで支払い</button>
+                <button id="sq-creditcard" 
+                        onclick="onGetCardNonce(event)">Pay $1.00</button>
             </div>
-            </fieldset>
-            <input type="hidden" id="card-nonce" name="nonce">
-        <?= $this->Form->end() ?>
-        </div>
-
-        <!-- Begin Payment Form -->
-        <div class="sq-payment-form">
-          <!--
-            Square's JS will automatically hide these buttons if they are unsupported
-            by the current device.
-          -->
-          <div id="sq-walletbox">
-            <button id="sq-google-pay" class="button-google-pay"></button>
-            <button id="sq-apple-pay" class="sq-apple-pay"></button>
-            <button id="sq-masterpass" class="sq-masterpass"></button>
-            <div class="sq-wallet-divider">
-              <span class="sq-wallet-divider__text">Or</span>
-            </div>
-          </div>
-          <div id="sq-ccbox">
-            <!--
-              You should replace the action attribute of the form with the path of
-              the URL you want to POST the nonce to (for example, "/process-card").
-
-              You need to then make a "Charge" request to Square's Payments API with
-              this nonce to securely charge the customer.
-
-              Learn more about how to setup the server component of the payment form here:
-              https://developer.squareup.com/docs/payments-api/overview
-            -->
+            </fieldset> -->
+            <fieldset>
             <form id="nonce-form" novalidate action="/process-card.php" method="post">
-              <div class="sq-field">
-                <label class="sq-label">Card Number</label>
-                <div id="sq-card-number"></div>
-              </div>
-              <div class="sq-field-wrapper">
-                <div class="sq-field sq-field--in-wrapper">
-                  <label class="sq-label">CVV</label>
-                  <div id="sq-cvv"></div>
-                </div>
-                <div class="sq-field sq-field--in-wrapper">
-                  <label class="sq-label">Expiration</label>
-                  <div id="sq-expiration-date"></div>
-                </div>
-                <div class="sq-field sq-field--in-wrapper">
-                  <label class="sq-label">Postal</label>
-                  <div id="sq-postal-code"></div>
-                </div>
-              </div>
-              <div class="sq-field">
-                <button id="sq-creditcard" class="sq-button" onclick="onGetCardNonce(event)">
-                  Pay $1.00 Now
-                </button>
-              </div>
-              <!--
-                After a nonce is generated it will be assigned to this hidden input field.
-              -->
-              <div id="error"></div>
-              <input type="hidden" id="card-nonce" name="nonce">
+                カードで支払います
+                <table><tbody>
+                    <tr>
+                    <td>カード番号:</td>
+                    <td><div id="sq-card-number"></div></td>
+                    </tr>
+                    <tr>
+                    <td>CVV:</td>
+                    <td><div id="sq-cvv"></div></td>
+                    </tr>
+                    <tr>
+                    <td>有効期限:</td>
+                    <td><div id="sq-expiration-date"></div></td>
+                    </tr>
+                    <tr>
+                    <td>郵便番号:</td>
+                    <td><div id="sq-postal-code"></div></td>
+                    </tr>
+                    <tr>
+                    <td colspan="2">
+                        <button id="sq-creditcard" class="button-credit-card" onclick="requestCardNonce(event)">
+                        カードで支払う
+                        </button>
+                    </td>
+                    </tr>
+                </tbody></table>
+                <input type="hidden" id="card-nonce" name="nonce">
             </form>
-          </div>
+            </fieldset>
+        <?= $this->Form->end() ?>
+        <?= $this->Form->create($square) ?>
+            <fieldset>
+                <legend><?= __('Add Square') ?></legend>
+                <?php
+                    echo $this->Form->control('date');
+                    echo $this->Form->control('receipt');
+                    echo $this->Form->control('amount');
+                    echo $this->Form->control('id_square');
+                    echo $this->Form->control('comment');
+                ?>
+            </fieldset>
+            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->end() ?>
         </div>
-        <!-- End Payment Form -->
     </div>
 </div>
-
-
-<!--
-var applicationId = <?= "\"";?><?= h($sqAppId);?><?= "\"";?>; // アプリケーションID設定
-var applicationId = "sandbox-sq0idb-7CmShbOR6Ylut1awS3EoEw";
-var locationId = "REPLACE_ME";    // 店舗ID設定
--->
-<script type="text/javascript">
+<!-- <script>
+var applicationId = "sandbox-sq0idb-7CmShbOR6Ylut1awS3EoEw"; // アプリケーションIDと置き換えます
+var locationId = "REPLACE_ME";    // 店舗IDと置き換えます
 
 // ボタンを押したタイミングで実行される関数
 function requestCardNonce(event) {
-    event.preventDefault();
-    paymentForm.requestCardNonce();
+  event.preventDefault();
+  paymentForm.requestCardNonce();
 }
 
 var paymentForm = new SqPaymentForm({
-  // 初期設定
-  applicationId: 'sandbox-sq0idb-7CmShbOR6Ylut1awS3EoEw',
+  // 以下は初期設定です
+  applicationId: applicationId,
   locationId: locationId,
   inputClass: 'sq-input',
   inputStyles: [{
       fontSize: '.9em'
   }],
 
-  // クレジットカード用
+  // Apple Pay用
+  applePay: {
+    elementId: 'sq-apple-pay'
+  },
+
+  // MasterPass用
+  masterpass: {
+    elementId: 'sq-masterpass'
+  },
+
+  // クレジットカード情報のプレイスホルダー
   cardNumber: {
     elementId: 'sq-card-number',
     placeholder: '•••• •••• •••• ••••'
@@ -135,18 +130,30 @@ var paymentForm = new SqPaymentForm({
   postalCode: {
     elementId: 'sq-postal-code'
   },
-  // Apple Pay用
-  applePay: {
-    elementId: 'sq-apple-pay'
-  },
-  // MasterPass用
-  masterpass: {
-    elementId: 'sq-masterpass'
-  },
 
   // 各種コールバック
   callbacks: {
-    createPaymentRequest: function () {},
+
+    // Apple Pay / MasterPassの有効/無効チェック
+    methodsSupported: function (methods) {
+      var applePayBtn = document.getElementById('sq-apple-pay');
+      var applePayLabel = document.getElementById('sq-apple-pay-label');
+      var masterpassBtn = document.getElementById('sq-masterpass');
+      var masterpassLabel = document.getElementById('sq-masterpass-label');
+      // Apple Payが有効だったら表示する
+      if (methods.applePay === true) {
+        applePayBtn.style.display = 'inline-block';
+        applePayLabel.style.display = 'none' ;
+      }
+      // Masterpassが有効だったら表示する
+      if (methods.masterpass === true) {
+        masterpassBtn.style.display = 'inline-block';
+        masterpassLabel.style.display = 'none';
+      }
+    },
+
+    createPaymentRequest: function () {
+    },
     // nonce 生成後に呼ばれるメソッド
     cardNonceResponseReceived: function(errors, nonce, cardData) {
       if (errors) {
@@ -162,7 +169,7 @@ var paymentForm = new SqPaymentForm({
       // 本来のフォームを送信します
       document.getElementById('nonce-form').submit();
     },
-    // サポート外のブラウザアクセスの場合
+    // サポート外のぶらず艶アクセ視した場合
     unsupportedBrowserDetected: function() {
     },
     // イベントハンドリング
@@ -173,6 +180,4 @@ var paymentForm = new SqPaymentForm({
     }
   }
 });
- </script>
-
-
+</script> -->
