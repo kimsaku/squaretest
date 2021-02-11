@@ -28,6 +28,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->meta('icon') ?>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
     <script type="text/javascript" src="https://js.squareupsandbox.com/v2/paymentform"></script>
     <script type="text/javascript" src="https://js.squareup.com/v2/paymentform"></script>
 

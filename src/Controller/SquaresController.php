@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Square\Enviroment;
 /**
  * Squares Controller
  *
@@ -15,6 +16,7 @@ class SquaresController extends AppController
     {
         parent::initialize();
         $this->viewBuilder('test');
+
     }
     /**
      * Index method
@@ -30,8 +32,15 @@ class SquaresController extends AppController
 
     public function pay()
     {
+        $upper_case_environment = strtoupper(getenv('ENVIRONMENT'));
+        $square_js_src = ($upper_case_environment == "PRODUCTION") ? "https://js.squareup.com/v2/paymentform" :  "https://js.squareupsandbox.com/v2/paymentform";
+        /*
+        if($upper_case_environment == "production") $square_js_src = "https://js.squareup.com/v2/paymentform";
+        else $square_js_src ="https://js.squareupsandbox.com/v2/paymentform";
+        */
         $square = $this->Squares->newEmptyEntity();
         
+
         if ($this->request->is('post')) {
             //squareの支払い処理
             
@@ -47,6 +56,10 @@ class SquaresController extends AppController
 
         //viewに
         $this->set(compact('square'));
+        $this->set('sqAppId',env('SQ_APP_ID','applicationId'));
+        $this->set('upper_case_environment',$upper_case_environment);
+        $this->set('square_js_src',$square_js_src);
+        
     }
 
     /**
