@@ -71,16 +71,16 @@ class SquaresController extends AppController
             $money->setAmount(100);         //金額
             $money->setCurrency('JPY');     //決済通貨
 
-            $create_payment_request = new CreatePaymentRequest($nonce, uniqid(), $money);
-            // $app_fee_money = new Money();
+            $create_payment_request = new CreatePaymentRequest($nonce, uniqid(), $money);   //第2引き数はユニークな文字列にして被らないように。ランダム+uniqid()にしておけば良し
+            // $app_fee_money = new Money();    //feeを設定する場合だが、なぜか使えない…
             // $app_fee_money->setAmount(10);
             // $app_fee_money->setCurrency('JPY');
             // $create_payment_request->setAppFeeMoney($app_fee_money);
             //$create_payment_request->setAutocomplete(true); //即決済（基本は変えない）
             //$create_payment_request->setCustomerId('VDKXEEKPJN48QDG3BGGFAK05P8'); //Square側に保存しているカスタマーID
             //$create_payment_request->setLocationId('XK3DBG77NJBFX');              //ロケーションIDを設定する場合
-            $create_payment_request->setReferenceId('123456');  //注文ID
-            $create_payment_request->setNote('メモお客さんの名前とか'); //メモ
+            $create_payment_request->setReferenceId('123456');  //注文ID（こちら側のIDを入れておく）
+            $create_payment_request->setNote('メモお客さんの名前とか'); //メモ（注文ID入れておけばよっぽど使わないと思う）
 
             try {
                 $response = $payments_api->createPayment($create_payment_request);
@@ -95,11 +95,10 @@ class SquaresController extends AppController
                     }
                     echo '</ul>';
                     exit();
+                }else{
+                    //データベースの情報を決済済みに書き換え
                 }
-                //echo '<pre>';
-                //print_r($response);
-                //echo '</pre>';
-                } catch (ApiException $e) {
+            } catch (ApiException $e) {
                 echo 'Caught exception!<br/>';
                 echo('<strong>Response body:</strong><br/>');
                 echo '<pre>'; var_dump($e->getResponseBody()); echo '</pre>';
@@ -152,10 +151,7 @@ class SquaresController extends AppController
         // }
         // //viewに
         // $this->set(compact('square'));
-        $this->set('sqAppId',$sqAppId);
-        $this->set('sqLocationId',$sqLocationId);
-        $this->set('upperCaseEnvironment',$upperCaseEnvironment);
-        $this->set('squareJsSrc',$squareJsSrc);
+        $this->set(compact(['sqAppId','sqLocationId','upperCaseEnvironment','squareJsSrc']));
         
     }
 
