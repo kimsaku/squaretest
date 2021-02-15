@@ -40,12 +40,16 @@ var paymentForm = new SqPaymentForm({
     placeholder: 'MM/YY'
   },
   postalCode: {
-    elementId: 'sq-postal-code'
+    elementId: 'sq-postal-code',
+    placeholder: '1230001'
   },
 
   // 各種コールバック
   callbacks: {
-
+    /*
+     * callback function: methodsSupported
+     * Triggered when: the page is loaded.
+     */
     // Apple Pay / MasterPassの有効/無効チェック
     methodsSupported: function (methods) {
       var applePayBtn = document.getElementById('sq-apple-pay');
@@ -69,12 +73,16 @@ var paymentForm = new SqPaymentForm({
     // nonce 生成後に呼ばれるメソッド
     cardNonceResponseReceived: function(errors, nonce, cardData) {
       if (errors) {
-        // エラーがあった場合
-        console.log("エラーが発生しました。:");
-        errors.forEach(function(error) {
-          console.log('  ' + error.message);
-        });
+        var error_html = "";
+        for (var i =0; i < errors.length; i++){
+          error_html += "<li> " + errors[i].message + " </li>";
+        }
+        document.getElementById("error").innerHTML = error_html;
+        document.getElementById('sq-creditcard').disabled = false;
+
         return;
+      }else{
+        //document.getElementById("error").innerHTML = "nonce is " + nonce;
       }
       // nonceの値をhiddenの中に入れます
       document.getElementById('card-nonce').value = nonce;
