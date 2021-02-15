@@ -1,0 +1,82 @@
+●paymentレスポンス
+
+array(1) {
+  ["payment"]=>
+  array(16) {
+    ["id"]=>
+    string(29) "1i8Cv07NouHYYLowBnqv2IU5VxCZY"
+    ["created_at"]=>
+    string(24) "2021-02-15T02:09:57.890Z"
+    ["updated_at"]=>
+    string(24) "2021-02-15T02:09:58.105Z"
+    ["amount_money"]=>
+    array(2) {
+      ["amount"]=>
+      int(100)
+      ["currency"]=>
+      string(3) "JPY"
+    }
+    ["total_money"]=>
+    array(2) {
+      ["amount"]=>
+      int(100)
+      ["currency"]=>
+      string(3) "JPY"
+    }
+    ["status"]=>
+    string(9) "COMPLETED"
+    ["delay_duration"]=>
+    string(6) "PT168H"
+    ["delay_action"]=>
+    string(6) "CANCEL"
+    ["delayed_until"]=>
+    string(24) "2021-02-22T02:09:57.890Z"
+    ["source_type"]=>
+    string(4) "CARD"
+    ["card_details"]=>
+    array(6) {
+      ["status"]=>
+      string(8) "CAPTURED"
+      ["card"]=>
+      array(7) {
+        ["card_brand"]=>
+        string(4) "VISA"
+        ["last_4"]=>
+        string(4) "1111"
+        ["exp_month"]=>
+        int(2)
+        ["exp_year"]=>
+        int(2025)
+        ["fingerprint"]=>
+        string(71) "sq-1-Vt-YZDjnwykfhLVL8VJm7mR6woTmvAUdtpFfuHR_XyqaTgE8HBIBP9AksvjXfToGUw"
+        ["card_type"]=>
+        string(6) "CREDIT"
+        ["bin"]=>
+        string(6) "411111"
+      }
+      ["entry_method"]=>
+      string(5) "KEYED"
+      ["cvv_status"]=>
+      string(12) "CVV_ACCEPTED"
+      ["avs_status"]=>
+      string(12) "AVS_ACCEPTED"
+      ["statement_description"]=>
+      string(24) "SQ *DEFAULT TEST ACCOUNT"
+    }
+    ["location_id"]=>
+    string(13) "LTQ3YEQM1BJ2Q"
+    ["order_id"]=>
+    string(28) "2s4YTRJatW9kpLvR60gN6nIYBd4F"
+    ["risk_evaluation"]=>
+    array(2) {
+      ["created_at"]=>
+      string(24) "2021-02-15T02:09:58.015Z"
+      ["risk_level"]=>
+      string(6) "NORMAL"
+    }
+    ["receipt_number"]=>
+    string(4) "1i8C"
+    ["receipt_url"]=>
+    string(73) "https://squareupsandbox.com/receipt/preview/1i8Cv07NouHYYLowBnqv2IU5VxCZY"
+  }
+}
