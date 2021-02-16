@@ -12,6 +12,7 @@
 <?= $this->Html->scriptEnd();?>
 <?= $this->Html->script('sqpaymentform',['block' => true]);?>
 
+
 <div class="row">
     <aside class="column">
         <div class="side-nav">
