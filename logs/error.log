@@ -1,0 +1,1492 @@
+2021-02-11 18:29:22 Error: [Cake\Http\Exception\MissingControllerException] Controller class Pay could not be found. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Pay',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /pay
+
+
+2021-02-11 20:21:00 Error: [Error] Class 'App\Controller\App' not found in C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php on line 18
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:213
+- ReflectionClass::newInstance() - [internal], line ??- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/add
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 20:21:23 Error: [Error] Call to undefined method App\Controller\SquaresController::import() in C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php on line 18
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:213
+- ReflectionClass::newInstance() - [internal], line ??- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/add
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 20:24:27 Error: [Error] Class 'App\Controller\App' not found in C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php on line 18
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:213
+- ReflectionClass::newInstance() - [internal], line ??- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/add
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 20:24:54 Error: [Error] Class 'App\Controller\App' not found in C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php on line 5
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\composer\ClassLoader.php:476
+- C:\xampp\htdocs\php\squaretest\vendor\composer\ClassLoader.php:344
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:218
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/add
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 20:57:01 Error: [Error] Class 'Environment' not found in C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php on line 11
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-11 21:03:53 Error: [Error] Class 'Environment' not found in C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php on line 11
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-11 21:13:27 Error: [TypeError] Argument 1 passed to Cake\View\Helper\HtmlHelper::scriptStart() must be of the type array, string given, called in C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php on line 7 in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 558
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:7
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-11 21:15:00 Error: [TypeError] strpos() expects parameter 1 to be string, bool given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:476
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:7
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-11 21:44:09 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /js/js/sq-payment-form.js
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 21:44:09 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /js/js/sq-payment-form.js
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 21:47:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /js/js/sq-payment-form.js
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 21:47:24 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /js/js/sq-payment-form.js
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 22:21:27 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /js/js/sq-payment-form.js
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-11 22:21:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /js/js/sq-payment-form.js
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-12 00:09:27 Error: [Error] Class 'App\Controller\Environment' not found in C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php on line 36
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-12 18:39:50 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php on line 29
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-12 18:39:50 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-12 18:39:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-12 18:39:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-12 18:39:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-12 18:53:22 Error: [TypeError] Argument 2 passed to Cake\View\Helper\HtmlHelper::tableCell() must be of the type array, null given, called in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 795 in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 823
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:795
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:756
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:30
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-13 00:26:17 Error: [RuntimeException] No context provider found for value of type `boolean`. Use `null` as 1st argument of FormHelper::create() to create a context-less form. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php on line 154
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:24
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-13 00:41:28 Error: [RuntimeException] No context provider found for value of type `string`. Use `null` as 1st argument of FormHelper::create() to create a context-less form. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php on line 154
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:24
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-13 00:46:49 Error: [RuntimeException] Unable to find table class for current entity. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\EntityContext.php on line 151
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:104
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php:72
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php:147
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:24
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-13 00:53:13 Error: [RuntimeException] No context provider found for value of type `string`. Use `null` as 1st argument of FormHelper::create() to create a context-less form. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php on line 154
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:24
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-13 00:55:21 Error: [RuntimeException] Unable to find table class for current entity. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\EntityContext.php on line 151
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:104
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php:72
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php:147
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:24
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-13 01:57:39 Error: [RuntimeException] Unable to find table class for current entity. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\EntityContext.php on line 151
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:104
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php:72
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php:147
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\php\squaretest\templates\Squares\pay.php:24
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pay
+
+
+2021-02-13 01:57:41 Error: [Cake\Controller\Exception\MissingActionException] Action SquaresController::pa() could not be found, or is not accessible. in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'SquaresController',
+  'action' => 'pa',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/pa
+
+
+2021-02-13 21:46:34 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:8
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-15 09:48:37 Error: [TypeError] Return value of Square\SquareClient::getAccessToken() must be of the type string, bool returned in C:\xampp\htdocs\php\squaretest\vendor\square\square\src\SquareClient.php on line 117
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\square\square\src\Apis\PaymentsApi.php:176
+- C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:90
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-15 09:48:37 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:48:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:48:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:48:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:50:33 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-15 09:50:33 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php line=104 in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:50:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:104) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:50:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:104) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:50:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:104) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:55:01 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-15 09:55:01 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php line=104 in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:55:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:104) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:55:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:104) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 09:55:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:104) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:01:16 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 10:12:22 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 10:13:06 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 10:13:06 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:13:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:13:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:13:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:14:26 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 10:14:27 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:14:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:14:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:14:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:17:53 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 10:17:53 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:17:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:17:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:17:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /squares/confirm
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-02-15 10:18:39 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 10:35:53 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 10:38:24 Error: [TypeError] strpos() expects parameter 1 to be string, null given in C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php on line 485
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php:485
+- C:\xampp\htdocs\php\squaretest\templates\Squares\confirm.php:9
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+
+
+2021-02-15 11:44:25 Error: [TypeError] Argument 1 passed to Square\Models\CreatePaymentRequest::setAppFeeMoney() must be an instance of Square\Models\Money or null, string given, called in C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php on line 79 in C:\xampp\htdocs\php\squaretest\vendor\square\square\src\Models\CreatePaymentRequest.php on line 288
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:79
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
+2021-02-15 11:46:47 Error: [TypeError] Argument 1 passed to Square\Models\CreatePaymentRequest::setAppFeeMoney() must be an instance of Square\Models\Money or null, string given, called in C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php on line 75 in C:\xampp\htdocs\php\squaretest\vendor\square\square\src\Models\CreatePaymentRequest.php on line 288
+Stack Trace:
+- C:\xampp\htdocs\php\squaretest\src\Controller\SquaresController.php:75
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\php\squaretest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\php\squaretest\webroot\index.php:40
+
+Request URL: /squares/confirm
+Referer URL: http://localhost/php/squaretest/squares/pay
+
+
