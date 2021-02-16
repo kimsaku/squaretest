@@ -33,6 +33,7 @@ class SquaresController extends AppController
 
         $this->set(compact('squares'));
     }
+
     public function confirm() //thanksの間違い
     {
         $upperCaseEnvironment = strtoupper(getenv('ENVIRONMENT'));  //square環境
@@ -46,28 +47,21 @@ class SquaresController extends AppController
 
             // Initialize the Square client.
             $client = new SquareClient([
-            'accessToken' => $access_token,  
-            'environment' => getenv('ENVIRONMENT')
+                'accessToken' => $access_token,  
+                'environment' => getenv('ENVIRONMENT')
             ]);
 
              // Fail if the card form didn't send a value for `nonce` to the server
             $nonce = $this->request->getData('nonce');
             if (is_null($nonce)) {
-            
-            $message = 'Invalid card data';
-            //http_response_code(422);
-            //return;
+                $message = 'Invalid card data';
+                //http_response_code(422);
+                //return;
             }
 
             $payments_api = $client->getPaymentsApi();
 
-            // To learn more about splitting payments with additional recipients,
-            // see the Payments API documentation on our [developer site]
-            // (https://developer.squareup.com/docs/payments-api/overview).
-
             $money = new Money();
-            // Monetary amounts are specified in the smallest unit of the applicable currency.
-            // This amount is in cents. It's also hard-coded for $1.00, which isn't very useful.
             $money->setAmount(100);         //金額
             $money->setCurrency('JPY');     //決済通貨
 
@@ -114,15 +108,16 @@ class SquaresController extends AppController
             $response = 'no';
             $nonce = 'no';
         }
-        $this->set('nonce',$nonce);
+        $this->set(compact(['nonce','upperCaseEnvironment']));
         //$this->set('sqAppId',$sqAppId);
         //$this->set('sqLocationId',$sqLocationId);
-        $this->set('upperCaseEnvironment',$upperCaseEnvironment);
+        //$this->set('upperCaseEnvironment',$upperCaseEnvironment);
         //$this->set('squareJsSrc',$squareJsSrc);
         $this->set('response',$response->getResult());
         $this->set('responseArr',$this->toArray($response->getResult()));
         $this->set('message',$message);
     }
+    // オブジェクトを連想配列に変換
     function toArray($var): array
     {
         return json_decode(json_encode($var), true);
@@ -140,17 +135,6 @@ class SquaresController extends AppController
         // pay()でクレカ入力確認、決済処理後、決済無事済んだら対象の注文の状態を支払い完了にする。
         // 決済が無事済まなかったら状態を決済できなかったでクローズ
         // ポストを確認してから表示の処理。ポスト無かったら不正な処理です、にリダイレクト
-        // if ($this->request->is('post')) {
-        //     if (0) {
-        //         $this->Flash->success(__('squareの支払が無事完了しました'));
-        //         //squareの返り値を配列に保存
-        //         //squareの返り値をポストしてaddに移動
-        //         return $this->redirect(['action' => 'add']);
-        //     }
-        //     $this->Flash->error(__('squareの処理を失敗しました'));
-        // }
-        // //viewに
-        // $this->set(compact('square'));
         $this->set(compact(['sqAppId','sqLocationId','upperCaseEnvironment','squareJsSrc']));
         
     }
